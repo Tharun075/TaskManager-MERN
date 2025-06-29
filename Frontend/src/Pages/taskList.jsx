@@ -5,7 +5,7 @@ export const TaskList=()=>{
 
     async function fetchTasks(){
         try{
-            const response = await fetch("https://projects-98l0.onrender.com/getAll")
+            const response = await fetch("https://projects-98l0.onrender.com/")
             const data = await response.json()
             setTasks(data)
         }
