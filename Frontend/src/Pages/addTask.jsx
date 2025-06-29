@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "../styles/addTask.css"
 
 export const AddTask=()=>{
     const [title,setTitle] = useState("")

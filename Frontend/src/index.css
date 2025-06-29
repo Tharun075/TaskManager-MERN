@@ -1,59 +1,39 @@
+/* Navbar.css */
 body{
-  background-color: rgb(238, 238, 238);
   margin: 0;
 }
 
-/* Task list */
-.navbar{
-  text-align: center;
+.navbar {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 25px;
-  background-color: rgb(45, 80, 133);
+  background-color: #4caf50;
+  padding: 1rem 2rem;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
 }
 
-.navItem{
-  padding: 10px;
-  margin: 5px;
-  border-radius: 7px;
-  font-size: 20px;
+.navbar h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.navItem {
+  margin-left: 1rem;
   text-decoration: none;
   color: white;
-  background-color: rgb(55, 141, 122);
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
-li{
-  list-style-type: none;
-}
-.card{
-  background-color: rgb(226, 244, 248);
-  padding: 18px 30px;
-  font-size: 16px;
-  margin: 15px 15px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
-.card>p{
-  padding: 10px;
+.navItem:hover {
+  color: #dcedc8;
+  transform: scale(1.05);
 }
 
-.del{
-  padding: 5px;
-  margin: 5px;
-  border-radius: 7px;
-  font-size: 14px;
-  text-decoration: none;
-  color: white;
-  background-color: rgb(141, 55, 55);
+.navItem:first-of-type {
+  margin-right: auto;
 }
-
-.comp{
-  padding: 5px;
-  margin: 5px;
-  border-radius: 7px;
-  font-size: 14px;
-  text-decoration: none;
-  color: white;
-  background-color: rgb(55, 141, 105);
-}
-
-
-/* Add task page */
