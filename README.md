@@ -11,6 +11,18 @@ Task manager app made using MERN stack
 
 ## Frontend:
 ### Deployed Link:
-➡️ [Netlify]*(https://spiffy-crumble-fec0d5.netlify.app)*
+➡️ [Netlify](https://spiffy-crumble-fec0d5.netlify.app)
 
 ---
+
+## Technologies Used:
+
+### 🖥️ Frontend:
+- React  
+- CSS3  
+- JavaScript
+
+### 🛠️ Backend:
+- Node.js  
+- Express  
+- MongoDB
