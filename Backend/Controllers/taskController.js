@@ -57,7 +57,10 @@ const updateTask = async(req,res)=>{
         const targetTask  = await TaskModel.findById(id)
         targetTask.title=title
         targetTask.completed=completed
+
+        await targetTask.save();
         res.status(200).json({msg:"Task updated", targetTask})
+        
     }
     catch(error){
         res.status(404).json({msg:"No task found"})
