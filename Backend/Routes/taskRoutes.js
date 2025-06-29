@@ -3,9 +3,9 @@ const { getAllTasks, createTask, deleteTask, updateTask } = require('../Controll
 
 const TaskRouter = express.Router()
 
-TaskRouter.get("/",getAllTasks)
-TaskRouter.post("/", createTask)
-TaskRouter.delete("/:id", deleteTask)
-TaskRouter.put("/:id", updateTask)
+TaskRouter.get("/getAll",getAllTasks)
+TaskRouter.post("/createTask", createTask)
+TaskRouter.delete("/deleteTask/:id", deleteTask)
+TaskRouter.put("/updateTask/:id", updateTask)
 
 module.exports = TaskRouter
