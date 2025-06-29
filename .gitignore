@@ -1,0 +1,20 @@
+# Ignore node_modules in both folders
+Backend/node_modules/
+Frontend/node_modules/
+
+# Ignore environment files
+Backend/.env
+Frontend/.env
+
+# Optional: ignore build outputs
+Frontend/build/
+Backend/dist/
+Backend/coverage/
+
+# Ignore OS and editor files
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+.vscode/
+.idea/
