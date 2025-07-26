@@ -12,6 +12,8 @@ Task manager app made using MERN stack
 ## Frontend:
 ### Deployed Link:
 ➡️ [Netlify](https://spiffy-crumble-fec0d5.netlify.app)
+    * Please give it atleast 1-2 minutes as the backend is deployed on a 
+      free plan and will take time to become active again. 
 
 ---
 
